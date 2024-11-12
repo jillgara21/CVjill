@@ -4,7 +4,6 @@ import Footer from "./components/Footer";
 import Clients from "./components/Clients";
 import Features from "./components/Features";
 import Pricing from "./components/Pricing";
-
 const App = () => {
   return (
     <div className="body-wrap">
