@@ -31,8 +31,8 @@ const Header = () => {
           <div className="col-lg-5 px-5 pl-lg-0 pb-5 pb-lg-0">
             {imageBase64 ? (
               <img
-                className="img-fluid w-100 rounded-circle shadow-sm"
-                src={`data:image/jpeg;,${imageBase64}`}
+                className="img-fluid w-100 rounded- shadow-sm"
+                src={`data:image/jpeg;base64,${imageBase64}`}
                 alt="Image from Firebase"
               />
             ) : (
