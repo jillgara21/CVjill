@@ -44,7 +44,7 @@ const Header = () => {
             
             </h4>
             <h1>
-              DICKY MENDELLSON MAMENTU
+              Gilbert Gabriel Marcellino Gara
 
             </h1>
             <h1 className="typed-text-output d-inline font-weight-lighter text-white" />

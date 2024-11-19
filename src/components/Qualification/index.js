@@ -1,29 +1,23 @@
 const Qualification = () => {
   return (
     <div id="qualification" className="container py-5" style={{ direction: "ltr", textAlign: "left" }}>
-      <h1 className="text-center text-uppercase text-white" style={{ WebkitTextStroke: "1px #dee2e6" }}>
-        Quality
-      </h1>
       <h2 className="text-center text-primary">Education &amp; Experience</h2>
-
+      <p></p>
+      <p></p>
       <div className="row">
         <div className="col-lg-6">
-          <h3 className="mb-4">My Education</h3>
           <ul className="list-unstyled">
             <li className="mb-4">
-              <h5>SMP</h5>
-              <p><strong>SMP Advent Timika</strong> | 2016 - 2019</p>
-              <p>Saya melanjutkan ke SMP setelah menyelesaikan sekolah dasar.</p>
+              <h5>SD-SMP</h5>
+              <p><strong>SD-SMP Advent Palu</strong></p>
             </li>
             <li className="mb-4">
               <h5>SMA</h5>
-              <p><strong>SMA Advent Timika</strong> | 2020 - 2022</p>
-              <p>Saya melanjutkan sekolah di Papua Barat.</p>
+              <p><strong>SMA Negeri 1 Palu</strong></p>
             </li>
             <li className="mb-4">
               <h5>Perguruan Tinggi</h5>
               <p><strong>Universitas Klabat</strong> | 2022 - Sekarang</p>
-              <p>Saya melanjutkan kuliah di Teknik Informatika.</p>
             </li>
           </ul>
         </div>

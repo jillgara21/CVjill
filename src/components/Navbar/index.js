@@ -3,7 +3,7 @@ const Navbar = () => {
     <nav className="navbar fixed-top shadow-sm navbar-expand-lg bg-light navbar-light py-3 py-lg-0 px-lg-5">
       <a href="index.html" className="navbar-brand ml-lg-3">
         <h1 className="m-0 display-5">
-          <span className="text-primary">D</span>M <h6>Dicky Mamentu</h6>
+          <span className="text-primary">G</span>G <h6>Gilbert Gara</h6>
         </h1>
       </a>
       <button

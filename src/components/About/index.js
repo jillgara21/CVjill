@@ -20,95 +20,79 @@ const About = () => {
         <div className="position-relative d-flex align-items-center justify-content-center">
           <h1
             className="display-1 text-uppercase text-white"
-            style={{ WebkitTextStroke: "1px #dee2e6" }}
+            style={{ WebkitTextStroke: "1px #dee2e6" }} 
           >
-            About
+              About
           </h1>
           <h1 className="position-absolute text-uppercase text-primary">
-            Me
+              Me
           </h1>
         </div>
-        <div className="row align-items-center">
+        <div className="row align-items-center"> 
           <div className="col-lg-5 pb-4 pb-lg-0 d-flex justify-content-center">
             {imageBase64 ? (
               <img
                 className="img-fluid rounded w-100"
                 src={`data:image/jpeg;base64,${imageBase64}`}
-                alt="Dicky Mamentu profile picture"
+                alt="Gilbert Gara profile picture"
               />
             ) : (
               <div>Loading image...</div>
             )}
           </div>
           <div className="col-lg-7">
-            <h3 className="mb-4">UI/UX Designer &amp; Web Developer</h3>
             <p>
-              Saya adalah seorang Mahasiswa Teknik Informatika, saya senang
-              dalam bidang Web Design, FrontEnd, dan Aplikasi Development. Saya
-              adalah seorang yang pekerja keras, ramah, dan orang yang tepat
-              waktu. Cita-cita saya adalah ingin menjadi seorang programmer.
+              Hi! i'm Gilbert Gabriel Marcellino Gara but you can call me Jill, i'm a student from Klabat University
+              and i majored in Information System.
             </p>
             <div className="row mb-3">
               <div className="col-sm-6 py-2">
                 <h6>
-                  Name: <span className="text-secondary">Dicky Mamentu</span>
+                  Name : <span className="text-secondary">Gilbert Gabriel Marcellino Gara (Jill)</span>
                 </h6>
               </div>
               <div className="col-sm-6 py-2">
                 <h6>
-                  Birthday:{" "}
-                  <span className="text-secondary">10 maret 2004</span>
+                  Birthday :{" "}
+                  <span className="text-secondary">21 December 2004</span>
                 </h6>
               </div>
               <div className="col-sm-6 py-2">
                 <h6>
-                  Status: <span className="text-secondary">Mahasiswa</span>
+                  Status : <span className="text-secondary">Student</span>
                 </h6>
               </div>
               <div className="col-sm-6 py-2">
                 <h6>
-                  Experience: <span className="text-secondary">1 Year</span>
+                  Experience : <span className="text-secondary">2 years in Unklab</span>
                 </h6>
               </div>
               <div className="col-sm-6 py-2">
                 <h6>
-                  Phone: <span className="text-secondary">085254617988 bisa juga 081543330656</span>
+                  Phone : <span className="text-secondary">+62 82190718282</span>
                 </h6>
               </div>
               <div className="col-sm-6 py-2">
                 <h6>
-                  Email:{" "}
+                  Email :{" "}
                   <span className="text-secondary">
-                    mamentudicky@gmail.com
+                    jilmarcellino21@gmail.com
+                    s22210370@student.unlab.ac.id
                   </span>
                 </h6>
               </div>
               <div className="col-sm-6 py-2">
                 <h6>
-                  Address:{" "}
-                  <span className="text-secondary">Manado, Sulawesi Utara</span>
+                  Address :{" "}
+                  <span className="text-secondary">Airmadidi, Manado, North Sulawesi</span>
                 </h6>
               </div>
               <div className="col-sm-6 py-2">
                 <h6>
-                  Freelance: <span className="text-secondary">Available</span>
+                  Freelance : <span className="text-secondary">Available</span>
                 </h6>
               </div>
             </div>
-            <a
-              href="#contact"
-              className="btn btn-outline-primary mr-4"
-              role="button"
-            >
-              Hire Me
-            </a>
-            <a
-              href="#portfolio"
-              className="btn btn-outline-primary"
-              role="button"
-            >
-              Learn More
-            </a>
           </div>
         </div>
       </div>
